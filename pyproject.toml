@@ -1,6 +1,6 @@
 [project]
 name = "how_is_the_weather"
-version = "0.3.0"
+version = "0.3.1"
 authors = [{ name = "Jim Jimbo", email = "jim377893@gmail.com" }]
 description = "A simple tool to describe weather conditions."
 readme = "README.md"
@@ -17,7 +17,7 @@ how-is-the-weather = "how_is_the_weather.weather:main"
 
 [tool.poetry]
 name = "how-is-the-weather"
-version = "0.3.0"
+version = "0.3.1"
 description = "A simple tool to describe weather conditions"
 authors = ["Jim Jimbo <jim377893@gmail.com>"]
 license = "MIT"
