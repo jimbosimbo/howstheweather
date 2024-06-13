@@ -1,4 +1,4 @@
-FROM golang:latest
+FROM index.docker.io/library/golang:latest@sha256:0f7691253e132744318ff4b02e0824fec9fa4f3b43b08afd1195599660d51521
 
 # Set the Current Working Directory inside the container
 WORKDIR /app
