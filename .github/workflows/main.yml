@@ -7,9 +7,9 @@ jobs:
   pypi:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@a5ac7e51b41094c92402da3b24376905380afc29 # v4
     - name: Build and publish to pypi
-      uses: JRubics/poetry-publish@v2.0
+      uses: JRubics/poetry-publish@7100bd02517e9f82452e6247849042f6c74dde04 # v2.0
       with:
         pypi_token: ${{ secrets.PYPI_TOKEN }}
         plugins: "poetry-dynamic-versioning[plugin]"
